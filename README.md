@@ -56,4 +56,23 @@ Bonus Tasks
 
 ## Task 4 - Balancing requests among 3 containers of the app with a single DB
 
-* 
+* For this, I created two more services in the docker-compose file for all 3 app containers.
+* I also modified the config file of nginx to be able to listen from all the three containers at port 3000.
+* The default was set to least connection proxy so I didnt mention that explicitly.
+* I was able to hear from port 8080 and it balanced the request to an app container which had lesser load.
+
+## Task 5 - Enabling data persistence for the DB and nginx configuration files
+
+* For this, I decided to use volume mounts.
+* I added volumes in the mysql service and nginx service.
+* The mysql service will store the data in a directory in docker where mysql is there.
+* The nginx volume basically is used to read and write from the config files in the nginx directory where the config files are there.
+
+## Task 6 - Use Docker Compose to do this in one step
+
+* I have been using docker compose from the second task onwards for this purpose.
+* I have also made sure that I have built an image of the application and just referenced that image in the docker compose file so that it would not require to build the image everytime I attempt to create a network.
+
+## Task 7 - Limiting the number of HTTP requests in a given period of time
+
+*
