@@ -1,0 +1,28 @@
+DOCUMENTATION FOR THE COMPLETION OF TASK 4
+
+Name : Sricharan Sridhar
+Roll No. : 221IT066
+
+March 12th : 
+
+- I decided to read about how to be able to launch three application images from a single Load balancer.
+- I initially assumed we could define how many containers we would want to create from a single image in the docker compose file.
+- I figured that it was better to just create three different services for each of the applications to be launched.
+
+- I made sure all three depend on the same DB, that is the mysqldb.
+- I also made sure that the load balancer (nginx) would depend on all three application services.
+
+- I decided to make changes in the config file of nginx (nginx.conf), creating an upstream for all the three apps.
+- This would listen to requests and balance the load between the three applications at port 3000.
+- It was default with least_conn (least connections priority)
+
+- On creating the network using docker compose, the three application servers, DB and the nginx servers launched and I was able to balance the load between the three application containers.
+
+FINAL CHECKS :-
+
+- Created three services for the application (WORKS)
+- Link all three images to a single DB (WORKS)
+- Link the load balancer to the three application services (WORKS)
+- Access the application only from port 8080 (WORKS)
+
+Hence, task has been completed Successfully.
