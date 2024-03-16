@@ -23,12 +23,12 @@ Bonus Tasks
 
 The tasks completed are briefly explained here. For Documentation, refer the tasks below :
 
-* Task 1 :
-* Task 2 : 
-* Task 3 :
-* Task 4 :
-* Task 5 :
-* Task 6 : [task7.txt](task6.txt)
+* Task 1 : [task1.txt](task1.txt)
+* Task 2 : [task2.txt](task2.txt)
+* Task 3 : [task3.txt](task3.txt)
+* Task 4 : [task4.txt](task4.txt)
+* Task 5 : [task5.txt](task5.txt)
+* Task 6 : [task6.txt](task6.txt)
 * Task 7 : [task7.txt](task7.txt)
 
 The following are the links for :
