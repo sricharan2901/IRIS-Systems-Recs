@@ -3,7 +3,7 @@ DOCUMENTATION FOR THE COMPLETION OF TASK 4
 Name : Sricharan Sridhar
 Roll No. : 221IT066
 
-March 12th : 
+March 13th : 
 
 - I decided to read about how to be able to launch three application images from a single Load balancer.
 - I initially assumed we could define how many containers we would want to create from a single image in the docker compose file.
