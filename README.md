@@ -21,7 +21,7 @@ Bonus Tasks
 
 ## Note
 
-The tasks completed are briefly explained here. For Documentation, refer the tasks below :
+The tasks completed are briefly explained here. For Documentation, refer the links for the tasks below :
 
 * Task 1 : [task1.txt](task1.txt)
 * Task 2 : [task2.txt](task2.txt)
