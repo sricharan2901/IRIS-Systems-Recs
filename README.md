@@ -70,10 +70,13 @@ The following are the links for :
 
 ## Task 5 - Enabling data persistence for the DB and nginx configuration files
 
-* For this, I decided to use volume mounts.
-* I added volumes in the mysql service and nginx service.
-* The mysql service will store the data in a directory in docker where mysql is there.
-* The nginx volume basically is used to read and write from the config files in the nginx directory where the config files are there.
+* For this, I decided to use bind mounts.
+* I created a directory called mysql-datab to store the data from the mysql directory.
+* The nginx bind mount is included to store the changes in the file nginx.conf from the nginx directory.
+
+mysql-datab directory after lauching the application
+
+![bindmount](./images_1/Screenshot_from_2024-03-16_17-59-24.png)
 
 ## Task 6 - Use Docker Compose to do this in one step
 
