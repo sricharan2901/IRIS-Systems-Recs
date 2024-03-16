@@ -1,0 +1,19 @@
+DOCUMENTATION FOR THE COMPLETION OF TASK 6
+
+Name : Sricharan Sridhar
+Roll No. : 221IT066
+
+March 15th :
+
+- I have been using docker compose since the second task for linking the DB and the application.
+- I just had to make one change, which is that I had to build an image and use that image instead of building the image again and again.
+- I made the changes in the docker-compose file and I built the image required.
+
+- The app was launched and was working without errors.
+
+FINAL CHECKS :-
+
+- Use docker compose for creating a network of services (WORKS)
+- Use a built image to create the network in a single step (WORKS)
+
+Hence, task has been completed Successfully.
