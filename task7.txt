@@ -1,0 +1,19 @@
+DOCUMENTATION FOR THE COMPLETION OF TASK 7
+
+Name : Sricharan Sridhar
+Roll No. : 221IT066
+
+March 16th :
+
+- For this task, I decided to read upon rate limiting.
+- First thing I did was to add a command to create a zone to request rate limit at 5 requests per second.
+- Inside the server block, I added a statement for the zone created to include a burst of 10 with nodelay.
+- I read online about nodelay and it didnt seem much of a difference in our case but generally it would be better if we dont want to constraint the time gap between requests.
+
+- I created the network again using docker-compose and I was able to run it smoothly (difficult to analyse this as hard to access the same page multiple times in a second)
+
+FINAL CHECKS :-
+
+- Added a request limit rate (WORKS)
+
+Hence, task has been completed Successfully.
