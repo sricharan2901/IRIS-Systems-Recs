@@ -40,7 +40,7 @@ The following are the links for :
 ## Task 1 - Packing the rails application in a docker container image
 
 * Created a Dockerfile and built all the dependencies required from the Gemfile.
-* Built a ruby:3.0.2 image initially, so I rebuilt the image for ruby:2.7.8 .
+* Built a ruby:3.1.2 image initially, so I rebuilt the image for ruby:2.7.8 .
 * Faced a lot of errors initially with the build, but eventually I changed versions of gems installed and the image was built.
 * I was able to run a container on the image created.
 
