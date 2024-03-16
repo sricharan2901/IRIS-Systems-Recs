@@ -1,0 +1,26 @@
+DOCUMENTATION FOR THE COMPLETION OF TASK 3
+
+Name : Sricharan Sridhar
+Roll No. : 221IT066
+
+March 12th : 
+
+- I decided to read about nginx load balancing. I also read about reverse proxy to figure out what it actually is.
+- I decided to use the latest image of nginx which is an official docker image.
+- I added a dependency such that the nginx container would depend on the app container, creating a link.
+
+- I initially made a Dockerfile for nginx to create the image, but I figured it wouldnt be needed if im just using the official image.
+- I also created a nginx config file (nginx.conf), to configure what the load balancer does.
+
+- It would read on port 8080 (application port) and map it to port 80.
+- I configured the load balancer as reverse proxy to the rails application.
+- The load balancer would listen on port 80 and load the application container, which in turn would launch the page.
+
+- On creating a network using docker compose, I was able to acheive this.
+
+FINAL CHECKS :-
+
+- Access the application through the load balancer on port 8080 (WORKS)
+- Cannot directly access the application (WORKS)
+
+Hence, task has been completed Successfully.
