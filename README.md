@@ -19,6 +19,24 @@ Bonus Tasks
 * [ ] Task 2
 * [ ] Task 3
 
+## Note
+
+The tasks completed are briefly explained here. For Documentation, refer the tasks below :
+
+* Task 1 :
+* Task 2 : 
+* Task 3 :
+* Task 4 :
+* Task 5 :
+* Task 6 : [task7.txt](task6.txt)
+* Task 7 : [task7.txt](task7.txt)
+
+The following are the links for :
+
+* Dockerfile : [Dockerfile](Dockerfile)
+* Docker Compose file : [docker-compose.yml](docker-compose.yml)
+* NginX Config file : [nginx.conf](nginx.conf)
+
 ## Task 1 - Packing the rails application in a docker container image
 
 * Created a Dockerfile and built all the dependencies required from the Gemfile.
