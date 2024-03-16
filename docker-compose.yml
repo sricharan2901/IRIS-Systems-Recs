@@ -6,7 +6,6 @@ services:
     image : mysql:latest
     container_name : db2
     volumes :
-#      - mysql-data:/var/lib/mysql
       - ./mysql-datab:/var/lib/mysql    #Adding a bind mount for the DB persistence
     environment :                       #enviroment variables are taken from .env file
       MYSQL_USER : ${db_user}           
@@ -56,6 +55,3 @@ services:
     #Exposing on application port 8080, mapped to port 80.  
     ports :
       - "8080:80" 
-
-#volumes:
-#    mysql-data :
