@@ -1,0 +1,29 @@
+DOCUMENTATION FOR THE COMPLETION OF TASK 5
+
+Name : Sricharan Sridhar
+Roll No. : 221IT066
+
+March 14th :
+
+- I had initially gone through info about volume mount and bind mounts.
+- I assumed it would be better to go ahead with volume mounts since it would just save everything to the Docker Directory.
+- I had incluede a volume for the database named mysql-data and assumed the task was done.
+
+March 16th : 
+
+- When I was having a check of the tasks completed, I was confused a bit about the data persistence.
+- I read online and figured that having a volume mount will in turn make me create the volume again and again when the network is created using docker compose.
+- It would be no use to have this done as the data is not stored.
+
+- So I created a directory named mysql-datab.
+- This would store all data that changes in the mysql directory -> /var/lib/mysql
+
+- I also created a bind mount for the NginX config files.
+- This would store data that changes in the nginx directory -> /etc/nginx/conf.d/default.conf
+
+FINAL CHECKS :-
+
+- Created a Bind mount for the DB (WORKS)
+- Created a Bind mount for the NginX config files (WORKS)
+
+Hence, task has been completed Successfully.
