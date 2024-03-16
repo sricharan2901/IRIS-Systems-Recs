@@ -45,16 +45,20 @@ The following are the links for :
 * I was able to run a container on the image created.
 
 Error in NodeJS version
+
 ![NODEJSerror](./images_1/ErrorsNODEJS.png)
 
 Image Built Successfully
+
 ![SuccessfulBuild](./images_1/SuccessfulImageBuild.png)
 
 The list of images
+
 ![DockerImages](./images_1/Docker_images.png)
 
 Mistake in running container
-![containerError](./images_1/)
+
+![containerError](./images_1/MistakeInContainerBuild.png)
 
 ## Task 2 - Launching the app in a container and linking it to a DB
 
@@ -67,18 +71,23 @@ Mistake in running container
 * The app was available on port 8080 and not 3000.
 
 Creating an application container
+
 ![Application Container](./images_1/ApplicationContainer.png)
 
 MySQL Socket Error
+
 ![ApplicationContainerError](./images_1/MySQLSocketError.png)
 
 Web Packer Error
+
 ![WebPackerError](./images_1/WebpackerError.png)
 
 Launching the Application on localhost 8080
-![app1](./images_1/FinalEditPage.png)
+
+![app1](./images_1/FInalEditPage.png)
 
 Uploading a Task
+
 ![app2](./images_1/UploadedTask.png)
 
 ## Task 3 - Using a NginX load balancer to recieve requests for the app
@@ -89,9 +98,11 @@ Uploading a Task
 * I was able to hear from port 8080 and now the app was able to be accessed only through the load balancer.
 
 Checking on port 3000
+
 ![Port3000](./images_1/Port3000Page.png)
 
 Checking on port 8080
+
 ![Port8080](./images_1/Port8000Page1.png)
 
 ## Task 4 - Balancing requests among 3 containers of the app with a single DB
@@ -107,6 +118,7 @@ Launching the different services
 ![Service23](./images_1/Serverweb2_3.png)
 
 Keeping three tabs open for three applications launched
+
 ![AppLaunch](./images_1/3applicationOpen.png)
 
 ## Task 5 - Enabling data persistence for the DB and nginx configuration files
