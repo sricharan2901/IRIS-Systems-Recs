@@ -41,6 +41,9 @@ March 11th :
 - I tried reinstalling the nodejs and yarn package manager and the packages. After couple of tries and changes, it ended up loading the webpage.
 - Initially I wasnt able to upload the file, but on running docker compose again, I was able to upload the file. I uploaded a file and took screenshots for this.
 
+- The app was run on port 8080 and I didnt expose the app at port 3000, or the DB on port 3306.
+- The application port 8080 was mapped to port 3000 and launched the app successfully.
+
 FINAL CHECKS :-
 
 - Launch an Application Container (WORKS)
