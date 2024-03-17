@@ -50,7 +50,7 @@ RUN mkdir -p $INSTALL_PATH
 
 #Setting the current working directory inside the container to the default directory made
 WORKDIR /opt/app
-COPY Gemfile Gemfile.lock package.json package.json ./
+COPY Gemfile Gemfile.lock package.json yarn.lock ./
 
 RUN apt-get update && apt-get install nodejs yarn
 

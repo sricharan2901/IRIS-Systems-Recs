@@ -33,7 +33,7 @@ RUN mkdir -p $INSTALL_PATH
 
 #Setting the current working directory inside the container to the default directory made
 WORKDIR /opt/app
-COPY Gemfile Gemfile.lock package.json package.json ./
+COPY Gemfile Gemfile.lock package.json yarn.lock ./
 
 #Installing node js from yarn packages
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
