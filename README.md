@@ -23,13 +23,13 @@ Bonus Tasks
 
 The tasks completed are briefly explained here. For Documentation, refer the links for the tasks below :
 
-* Task 1 : [task1.txt](task1.txt)
-* Task 2 : [task2.txt](task2.txt)
-* Task 3 : [task3.txt](task3.txt)
-* Task 4 : [task4.txt](task4.txt)
-* Task 5 : [task5.txt](task5.txt)
-* Task 6 : [task6.txt](task6.txt)
-* Task 7 : [task7.txt](task7.txt)
+* Task 1 : [task1.md](./Task1/task1.md)
+* Task 2 : [task2.md](./Task2/task2.md)
+* Task 3 : [task3.md](./Task3/task3.md)
+* Task 4 : [task4.md](./Task4/task4.md)
+* Task 5 : [task5.md](./Task5/task5.md)
+* Task 6 : [task6.md](./Task6/task6.md)
+* Task 7 : [task7.md](./Task7/task7.md)
 
 The following are the links for :
 

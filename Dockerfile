@@ -37,5 +37,3 @@ EXPOSE 3000
 
 #Creating an Entrypoint for the Application
 ENTRYPOINT ["./entrypoint.sh"]
-
-#CMD ["rails", "s","-b","0.0.0.0"]
